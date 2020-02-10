@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>International talking School</title>
+
+        <!-- żródła strony -->
+        <link rel="stylesheet" href="./public/css/index.css" />
+
+        <!-- standardowe źródła -->
+        <link rel="stylesheet" type="text/css" href="./public/css/master.css" />
+        <link
+            rel="shortcut icon"
+            href="./public/images/logo-blue.png"
+            type="image/png"
+        />
+        <link
+            rel="icon"
+            href="./public/images/logo-blue.png"
+            type="image/png"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <!-- Pasek nawigacyjny -->
+        <!-- OPCJA DO PRODUKCJI -->
+        <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> -->
+        <!-- OPCJA DEWELOPERSKA -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#top-tile"
+                    ><img src="./public/images/logo_min.png" id="logo"
+                /></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapsingItems"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsingItems">
+                    <ul class="navbar-nav mr-auto justify-content-center">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link navbar-brand"
+                                style="padding: 0.3125rem"
+                                href="#top-tile"
+                                >Start<span class="sr-only">(current)</span></a
+                            >
+                        </li>
+                        <li class="left-margin nav-item">
+                            <a class="nav-link" href="#about-tile">O nas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skill-tile"
+                                >Co gwarantujemy?</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#offert-tile">Oferta</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav navbar-right">
+                        <li class="nav-item nav-active">
+                            <a
+                                class="navbar-brand nav-link"
+                                href="#contact-form"
+                                >Kontakt</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Górna płytka -->
+        <div class="top-tile" id="top-tile">
+            <div class="holder">
+                <div class="hidding-box"></div>
+                <div id="title">International Talking School</div>
+                <hr class="hr-style" />
+                <h3 id="text">
+                    Internetowe korepetycje z doświadczonymi nauczycielami,
+                    gotowymi zacząć naukę z tobą od zaraz!
+                </h3>
+                <a
+                    class="btn btn-outline-danger btn-lg"
+                    href="#contact-tile"
+                    id="button"
+                    >Zaczynam naukę!</a
+                >
+            </div>
+        </div>
+
+        <!-- O nas  -->
+        <div class="tile" id="about-tile">
+            <div class="tile-title">
+                O nas
+            </div>
+            <div class="about-body">
+                <div class="ccontainer about-box" id="first-container">
+                    <span class="title-in-text"
+                        >International Talking School</span
+                    >
+                    to szkoła stworzona z pasji do uczenia się i nauczania
+                    języków obcych. <br />
+                    <br />
+                    Jej planem jest zrzeszać ludzi z całego świata by robili to,
+                    co potrafią i kochają najbardziej, czyli
+                    <strong> nauczanie języków obcych</strong> oraz
+                    <strong>tłumaczenie pisemne i ustne</strong>
+                </div>
+                <div class="ccontainer about-box" id="second-container"></div>
+                <div class="ccontainer about-box" id="third-container">
+                    <span class="title-in-text">Nasi lektorzy</span> to osoby
+                    posiadające wieloletnie doświadczenie w nauczaniu i
+                    udokumentowany najwyższy poziom biegłości językowej : <br />
+                    <br />
+                    <ul class="inbox-list">
+                        <li>native speakerzy z wykształceniem filologicznym</li>
+                        <br />
+                        <hr class="hr-style" />
+                        <li>absolwenci kierunków filologicznych</li>
+                        <br />
+                        <hr class="hr-style" />
+                        <li>certyfikowani nauczyciele języków obcych</li>
+                        <br />
+                    </ul>
+                </div>
+                <div class="ccontainer about-box" id="fourth-container"></div>
+                <div class="ccontainer about-box" id="fifth-container">
+                    <span class="title-in-text">Każdemu uczniowi</span>
+                    tworzymy i udostępniamy indywidualną stronę, gdzie otrzymuje
+                    dodatkowe materiały odnoszące się do zajęć (słuchanie,
+                    gramatyka, słownictwo, czytanie, pisanie).<br /><br />
+                    Jeśli w trakcie przerabiania dodatkowych materiałów
+                    napotkasz jakiś problem czy wątpliwość to zawsze masz
+                    możliwość skontaktowania się z lektorem, który na pewno
+                    pomoże.
+                </div>
+                <div class="ccontainer about-box" id="sixth-container"></div>
+            </div>
+        </div>
+
+        <hr class="hr-style" />
+
+        <!-- Umiejętności -->
+        <div class="tile" id="skill-tile">
+            <div class="tile-title">Co gwarantujemy?</div>
+            <div class="list-container row">
+                <div class="col-lg list-element">
+                    <div class="icon">
+                        <i class="fas fa-user-graduate fa-3x"></i>
+                        <h4>Profesjonalni nauczyciele</h4>
+                        <p>
+                            Nasi lektorzy to osoby posiadające wieloletnie
+                            doświadczenie w nauczaniu i udokumentowany najwyższy
+                            poziom biegłości językowej.
+                        </p>
+                    </div>
+                </div>
+                <div class="list-element col-lg">
+                    <div class="icon">
+                        <i class="fas fa-laptop fa-3x"></i>
+                        <h4>Zdalne nauczanie</h4>
+                        <p>
+                            Na początek oferujemy 45 lub 60 minutową tańszą i
+                            całkowicie niezobowiązującą lekcję próbną. W
+                            zależności od Twoich potrzeb, dopasujemy do Ciebie
+                            indywidualny plan nauki, materiały i charakter
+                            zajęć.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg list-element">
+                    <div class="icon">
+                        <i class="fas fa-graduation-cap fa-3x"></i>
+                        <h4>Certyfikat ukończenia</h4>
+                        <p>
+                            Wystawiamy certyfikaty ukończenia kursu oraz
+                            referencje dla osób zainteresowanych podjęciem
+                            pracy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr-style" />
+
+        <!-- Języki oferta -->
+        <div class="tile" id="offert-tile">
+            <!-- Tytuł -->
+            <div class="tile-title">
+                Nasza Oferta
+            </div>
+
+            <!-- Treść -->
+            <div class="offert-body">
+                <div class="container">
+                    <div class="box" id="box-english">
+                        Angielski
+                    </div>
+                    <div class="box-container" for="box-english">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Voluptates ex odio, placeat qui, dolor excepturi
+                        deserunt itaque consectetur maiores deleniti veritatis
+                        eligendi repellendus consequatur perspiciatis aspernatur
+                        cum. Hic delectus at aspernatur tenetur dicta sint
+                        sapiente distinctio modi fugit facilis. Numquam omnis
+                        quis impedit ab voluptates voluptatum commodi! Quia
+                        quibusdam eius laboriosam accusantium eum distinctio
+                        praesentium harum sapiente voluptatibus, blanditiis
+                        quasi tempore ipsam aperiam consequuntur est excepturi
+                        doloribus cupiditate recusandae molestias dolore nihil?
+                        In iure quas iusto error facere et accusantium molestias
+                        maxime dolorum blanditiis odit atque corrupti distinctio
+                        obcaecati ducimus nostrum, quod omnis quidem deleniti
+                        accusamus veniam dolorem? Asperiores, ea! Optio, at
+                        illum! Esse ex provident, soluta natus sequi reiciendis
+                        cumque corporis earum atque neque fugiat excepturi quasi
+                        fugit quo!
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="box" id="box-english">
+                        Hiszpański
+                    </div>
+                    <div class="box-container" for="box-english">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Voluptates ex odio, placeat qui, dolor excepturi
+                        deserunt itaque consectetur maiores deleniti veritatis
+                        eligendi repellendus consequatur perspiciatis aspernatur
+                        cum. Hic delectus at aspernatur tenetur dicta sint
+                        sapiente distinctio modi fugit facilis. Numquam omnis
+                        quis impedit ab voluptates voluptatum commodi! Quia
+                        quibusdam eius laboriosam accusantium eum distinctio
+                        praesentium harum sapiente voluptatibus, blanditiis
+                        quasi tempore ipsam aperiam consequuntur est excepturi
+                        doloribus cupiditate recusandae molestias dolore nihil?
+                        In iure quas iusto error facere et accusantium molestias
+                        maxime dolorum blanditiis odit atque corrupti distinctio
+                        obcaecati ducimus nostrum, quod omnis quidem deleniti
+                        accusamus veniam dolorem? Asperiores, ea! Optio, at
+                        illum! Esse ex provident, soluta natus sequi reiciendis
+                        cumque corporis earum atque neque fugiat excepturi quasi
+                        fugit quo!
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="box" id="box-english">
+                        Niemiecki
+                    </div>
+                    <div class="box-container" for="box-english">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Voluptates ex odio, placeat qui, dolor excepturi
+                        deserunt itaque consectetur maiores deleniti veritatis
+                        eligendi repellendus consequatur perspiciatis aspernatur
+                        cum. Hic delectus at aspernatur tenetur dicta sint
+                        sapiente distinctio modi fugit facilis. Numquam omnis
+                        quis impedit ab voluptates voluptatum commodi! Quia
+                        quibusdam eius laboriosam accusantium eum distinctio
+                        praesentium harum sapiente voluptatibus, blanditiis
+                        quasi tempore ipsam aperiam consequuntur est excepturi
+                        doloribus cupiditate recusandae molestias dolore nihil?
+                        In iure quas iusto error facere et accusantium molestias
+                        maxime dolorum blanditiis odit atque corrupti distinctio
+                        obcaecati ducimus nostrum, quod omnis quidem deleniti
+                        accusamus veniam dolorem? Asperiores, ea! Optio, at
+                        illum! Esse ex provident, soluta natus sequi reiciendis
+                        cumque corporis earum atque neque fugiat excepturi quasi
+                        fugit quo!
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="box" id="box-english">
+                        Więcej<br />
+                        już wkrótce
+                    </div>
+                    <div class="box-container" for="box-english">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Voluptates ex odio, placeat qui, dolor excepturi
+                        deserunt itaque consectetur maiores deleniti veritatis
+                        eligendi repellendus consequatur perspiciatis aspernatur
+                        cum. Hic delectus at aspernatur tenetur dicta sint
+                        sapiente distinctio modi fugit facilis. Numquam omnis
+                        quis impedit ab voluptates voluptatum commodi! Quia
+                        quibusdam eius laboriosam accusantium eum distinctio
+                        praesentium harum sapiente voluptatibus, blanditiis
+                        quasi tempore ipsam aperiam consequuntur est excepturi
+                        doloribus cupiditate recusandae molestias dolore nihil?
+                        In iure quas iusto error facere et accusantium molestias
+                        maxime dolorum blanditiis odit atque corrupti distinctio
+                        obcaecati ducimus nostrum, quod omnis quidem deleniti
+                        accusamus veniam dolorem? Asperiores, ea! Optio, at
+                        illum! Esse ex provident, soluta natus sequi reiciendis
+                        cumque corporis earum atque neque fugiat excepturi quasi
+                        fugit quo!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr-style" />
+
+        <!-- Formularz kontaktowy -->
+        <div class="tile" id="contact-tile">
+            <div class="tile-title" id="contact-form">
+                Skontaktuj się z nami!
+            </div>
+            <div class="contact-container">
+                <div class="left-box">
+                    <div class="top-text">
+                        <i
+                            class="far fa-paper-plane fa-3x"
+                            id="fa-paper-plane"
+                        ></i>
+                        <hr class="contact-hr" />
+                        Jeśli jesteś ambitna/y, pracowita/y i zmotywowana/y do
+                        pracy, skontaktuj się z nami, a pokażemy Ci jak w sposób
+                        szybki, łatwy i przyjemny nauczyć się języka.
+                    </div>
+                    <div class="bottom-text">
+                        Polska <br />
+                        Ługi 31, <br />
+                        67-106 Ługi<br />
+                        <i class="fas fa-phone"></i
+                        ><span>(+48) 790 404 067 </span><br />
+                        <i class="far fa-envelope"></i
+                        ><span id="span-email"
+                            >iternational.talking@gmail.com</span
+                        ><br />
+                        <hr class="contact-hr" />
+                        <div class="links">
+                            <a
+                                href="https://www.e-korepetycje.net/international-talking"
+                                style="width:fit-content"
+                                ><img
+                                    src="./public/images/e-korepetycje.svg"
+                                    alt="e-korepetycje"
+                                    style="width: 50%"
+                                    class="link-img"
+                            /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <form class="form" autocomplete="off">
+                        <div class="form-justify-content">
+                            <h2>Formularz kontaktowy</h2>
+                        </div>
+                        <div class="form-justify-content">
+                            <label class="form-label" for="name">Imię:</label>
+                            <input
+                                type="text"
+                                class="input"
+                                id="name"
+                                placeholder="Twoje imię"
+                                onfocus="highligh_text(event)"
+                                onfocusout="unhighlight_text(event)"
+                                name="fname"
+                                tabindex="1"
+                                required
+                            />
+                        </div>
+                        <div class="form-justify-content">
+                            <label class="form-label" for="surname"
+                                >Nazwisko:</label
+                            >
+                            <input
+                                type="text"
+                                class="input"
+                                id="surname"
+                                placeholder="Twoje nazwisko"
+                                onfocus="highligh_text(event)"
+                                onfocusout="unhighlight_text(event)"
+                                name="lname"
+                                tabindex="2"
+                                required
+                            />
+                        </div>
+                        <div class="form-justify-content">
+                            <label class="form-label" for="email">Email:</label>
+                            <input
+                                type="email"
+                                class="input"
+                                id="email"
+                                placeholder="Twój email"
+                                onfocus="highligh_text(event)"
+                                onfocusout="unhighlight_text(event)"
+                                tabindex="3"
+                                required
+                            />
+                        </div>
+                        <div class="form-justify-content">
+                            <label class="form-label" for="message"
+                                >Wiadomość:</label
+                            >
+                            <textarea
+                                type="text"
+                                class="form-text-area"
+                                id="message"
+                                class="form-text-area"
+                                placeholder="Twoja wiadomość"
+                                onfocus="highligh_text(event)"
+                                onfocusout="unhighlight_text(event)"
+                                tabindex="4"
+                                autocomplete="off"
+                                required
+                            ></textarea>
+                        </div>
+                        <input class="btn-submit" tabindex="4" type="submit" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Stopka -->
+        <footer>
+            <p>
+                Autor strony: Krzysztof Dydak. Wszystkie prawa zastrzeżone.
+            </p>
+        </footer>
+        <script src="./public/js/master.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+            integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://kit.fontawesome.com/12722d3b6e.js"></script>
+    </body>
+</html>
