@@ -435,14 +435,11 @@ i + h4 {
 
 .offert-body {
 	margin: 0 2%;
-	display: flex;
+	/* display: flex; */
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
 .offert-body .container {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
 	text-align: justify;
 }
 
@@ -501,7 +498,6 @@ div.box + div.box-container {
 
 	visibility: hidden;
 	height: fit-content;
-	width: 120%;
 
 	transition: height ease-out 0.4s, padding ease-out 0.4s, visibility ease-out 0.4s, color ease-out 0.2s;
 }
