@@ -397,12 +397,15 @@ nav {
 
 /* skill tile */
 .list-container {
-	margin: 1em auto 0.5em;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	margin-bottom: 4em;
 	padding: 1.5rem;
 	background-color: white;
 	box-shadow: var(--box-shadow);
 	border-radius: var(--border-radius);
-	width: auto;
+	max-width: 2000px;
+	width: 100%;
 	height: auto;
 }
 
@@ -512,6 +515,7 @@ div.container:nth-of-type(2) > div.box-container {
 
 div.container:nth-of-type(3) > div.box-container {
 	border-bottom: 5px solid #6b6b6b69;
+	margin-bottom: 2em;
 }
 
 /* CONTACT TILE */
