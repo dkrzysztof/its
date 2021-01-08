@@ -449,7 +449,7 @@ i + h4 {
 .box {
 	font-family: "Crete Round", serif;
 	margin: 3em 1em 1em;
-	width: 300px;
+	max-width: 300px;
 	height: fit-content;
 	padding: 1em;
 	display: flex;
