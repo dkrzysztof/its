@@ -25,6 +25,8 @@ body {
 	margin: 0;
 	display: flex;
 	flex-wrap: wrap;
+	width: 100vw;
+	overflow-x: hidden;
 }
 
 a.navbar-brand {
